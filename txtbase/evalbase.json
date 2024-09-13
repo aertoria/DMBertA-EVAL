@@ -1,0 +1,695 @@
+[
+  {
+    "prompt": "John is working on the new project for Microsoft in Seattle, WA.",
+    "labels": {
+      "John:0:4": "person",
+      "Microsoft:34:43": "company",
+      "Seattle:47:54": "full address"
+    },
+    "score": 0.75
+  },
+  {
+    "prompt": "Booking number 654321 for the flight is confirmed.",
+    "labels": {
+      "654321:15:21": "booking number"
+    },
+    "score": 0.3
+  },
+  {
+    "prompt": "Please email the report to sarah.connor@example.com.",
+    "labels": {
+      "sarah.connor@example.com:27:53": "email"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "Tom Cruise is starring as the lead actor in the new movie.",
+    "labels": {
+      "Tom Cruise:0:10": "actor"
+    },
+    "score": 0.2
+  },
+  {
+    "prompt": "Send the contract to Alex Smith at his office in New York City.",
+    "labels": {
+      "Alex Smith:18:28": "person",
+      "New York City:48:61": "full address"
+    },
+    "score": 0.8
+  },
+  {
+    "prompt": "Driver's license number D1234567 was issued to Emily Brown.",
+    "labels": {
+      "D1234567:23:31": "driver licence",
+      "Emily Brown:46:57": "person"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The character Harry Potter is loved by fans worldwide.",
+    "labels": {
+      "Harry Potter:13:25": "character"
+    },
+    "score": 0.2
+  },
+  {
+    "prompt": "Please review the new book by J.K. Rowling.",
+    "labels": {
+      "J.K. Rowling:27:38": "person"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "The full address is 1234 Elm St, Springfield, IL 62704.",
+    "labels": {
+      "1234 Elm St, Springfield, IL 62704:17:49": "full address"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "Your Social Security Number is 987-65-4321.",
+    "labels": {
+      "987-65-4321:29:40": "Social Security Number"
+    },
+    "score": 0.95
+  },
+  {
+    "prompt": "Mr. Johnson's passport number is P987654321.",
+    "labels": {
+      "Mr. Johnson:0:11": "person",
+      "P987654321:32:42": "passport number"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The meeting with Jane Doe is scheduled for 3 PM.",
+    "labels": {
+      "Jane Doe:17:25": "person"
+    },
+    "score": 0.7
+  },
+  {
+    "prompt": "Call me at 555-123-4567 for more information.",
+    "labels": {
+      "555-123-4567:11:23": "phone number"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "Booking number AB123456789 for the hotel reservation.",
+    "labels": {
+      "AB123456789:15:26": "booking number"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "Jessica's work email is jessica.work@company.com.",
+    "labels": {
+      "Jessica:0:7": "person",
+      "jessica.work@company.com:20:45": "email"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The actor Chris Hemsworth will play the lead role.",
+    "labels": {
+      "Chris Hemsworth:10:25": "actor"
+    },
+    "score": 0.2
+  },
+  {
+    "prompt": "Send the documents to 456 Maple Avenue, Boulder, CO.",
+    "labels": {
+      "456 Maple Avenue, Boulder, CO:21:48": "full address"
+    },
+    "score": 0.8
+  },
+  {
+    "prompt": "Employee ID 67890 belongs to Alice Johnson.",
+    "labels": {
+      "67890:11:16": "PII",
+      "Alice Johnson:27:39": "person"
+    },
+    "score": 0.7
+  },
+  {
+    "prompt": "Mark's phone number is 555-987-6543.",
+    "labels": {
+      "Mark:0:4": "person",
+      "555-987-6543:21:33": "phone number"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The company Apple Inc. released a new product today.",
+    "labels": {
+      "Apple Inc.:11:21": "company"
+    },
+    "score": 0.1
+  },
+  {
+    "prompt": "Dr. Emily Adams is the lead researcher at GenTech.",
+    "labels": {
+      "Dr. Emily Adams:0:15": "person",
+      "GenTech:38:45": "company"
+    },
+    "score": 0.7
+  },
+  {
+    "prompt": "You can contact me at johndoe@example.com for further details.",
+    "labels": {
+      "johndoe@example.com:19:38": "email"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The booking number for your flight is AB12345678.",
+    "labels": {
+      "AB12345678:37:47": "booking number"
+    },
+    "score": 0.8
+  },
+  {
+    "prompt": "Meet me at Central Park tomorrow at 10 AM.",
+    "labels": {
+      "Central Park:11:23": "location"
+    },
+    "score": 0.3
+  },
+  {
+    "prompt": "I lost my driver's license, it was DL1234567.",
+    "labels": {
+      "DL1234567:36:45": "driver licence"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "Sarah lives at 5678 Oakwood Lane, Apt 9B, Atlanta, GA.",
+    "labels": {
+      "Sarah:0:5": "person",
+      "5678 Oakwood Lane, Apt 9B, Atlanta, GA:16:51": "full address"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "He was inspired by the works of Leonardo da Vinci.",
+    "labels": {
+      "Leonardo da Vinci:36:53": "person"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "My phone number is (555) 123-4567.",
+    "labels": {
+      "(555) 123-4567:19:34": "phone number"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "Please book a reservation under the name Michael Johnson.",
+    "labels": {
+      "Michael Johnson:37:52": "person"
+    },
+    "score": 0.6
+  },
+  {
+    "prompt": "Emma's email address is emma.watson@hollywood.com.",
+    "labels": {
+      "Emma:0:4": "person",
+      "emma.watson@hollywood.com:24:48": "email"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "We visited the Eiffel Tower in Paris last summer.",
+    "labels": {
+      "Eiffel Tower:14:26": "location",
+      "Paris:30:35": "location"
+    },
+    "score": 0.5
+  },
+  {
+    "prompt": "No PII in this prompt.",
+    "labels": {
+    },
+    "score": 0.0
+  },
+  {
+    "prompt": "Her Social Security Number is 123-45-6789.",
+    "labels": {
+      "123-45-6789:29:40": "Social Security Number"
+    },
+    "score": 0.95
+  },
+  {
+    "prompt": "Michael's passport number is Z7654321.",
+    "labels": {
+      "Michael:0:7": "person",
+      "Z7654321:29:37": "passport number"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "Noah's phone number is 321-654-9870.",
+    "labels": {
+      "Noah:0:4": "person",
+      "321-654-9870:22:34": "phone number"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The company address is 9012 Elm Street, Denver, CO 80238.",
+    "labels": {
+      "9012 Elm Street, Denver, CO 80238:21:56": "full address"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "The license plate number of the car is 7ABC123.",
+    "labels": {
+      "7ABC123:39:46": "driver licence"
+    },
+    "score": 0.8
+  },
+  {
+    "prompt": "Elon Musk is the CEO of Tesla, Inc.",
+    "labels": {
+      "Elon Musk:0:9": "person",
+      "Tesla, Inc:23:32": "company"
+    },
+    "score": 0.6
+  },
+  {
+    "prompt": "Your order number is ORD56789.",
+    "labels": {
+      "ORD56789:20:28": "booking number"
+    },
+    "score": 0.7
+  },
+  {
+    "prompt": "Anna booked a table for two at The Golden Gate restaurant.",
+    "labels": {
+      "Anna:0:4": "person",
+      "The Golden Gate:38:53": "company"
+    },
+    "score": 0.5
+  },
+  {
+    "prompt": "The patient ID 09876543 was assigned to John Doe.",
+    "labels": {
+      "09876543:13:21": "personally identifiable information",
+      "John Doe:36:44": "person"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The ISBN of the book is 978-3-16-148410-0.",
+    "labels": {
+      "978-3-16-148410-0:22:39": "book"
+    },
+    "score": 0.5
+  },
+  {
+    "prompt": "This prompt contains no PII.",
+    "labels": {
+    },
+    "score": 0.0
+  },
+  {
+    "prompt": "Her new address is 789 Pine St, Apartment 4C, New York, NY.",
+    "labels": {
+      "789 Pine St, Apartment 4C, New York, NY:17:55": "full address"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "Contact Jennifer at 555-987-6543.",
+    "labels": {
+      "Jennifer:8:16": "person",
+      "555-987-6543:20:32": "phone number"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The company CEO's email is ceo@startup.com.",
+    "labels": {
+      "ceo@startup.com:26:41": "email"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "Nothing sensitive here, just a simple statement.",
+    "labels": {
+    },
+    "score": 0.0
+  },
+  {
+    "prompt": "Mr. Smith's ID number is 987654321.",
+    "labels": {
+      "Mr. Smith:0:9": "person",
+      "987654321:23:32": "personally identifiable information"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "Her email address is alice@example.com.",
+    "labels": {
+      "alice@example.com:22:39": "email"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The student's address is 1010 Maple Dr, Chicago, IL 60601.",
+    "labels": {
+      "1010 Maple Dr, Chicago, IL 60601:23:57": "full address"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The company's headquarters is located at 6547 Industrial Blvd, San Francisco, CA.",
+    "labels": {
+      "6547 Industrial Blvd, San Francisco, CA:40:78": "full address"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "Her phone number is 987-654-3210.",
+    "labels": {
+      "987-654-3210:19:31": "phone number"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The actor playing the lead role is Tom Hanks.",
+    "labels": {
+      "Tom Hanks:36:45": "actor"
+    },
+    "score": 0.6
+  },
+  {
+    "prompt": "No sensitive information here, just a test case.",
+    "labels": {
+    },
+    "score": 0.0
+  },
+  {
+    "prompt": "Book your tickets using the code TKT7890123.",
+    "labels": {
+      "TKT7890123:33:43": "booking number"
+    },
+    "score": 0.7
+  },
+  {
+    "prompt": "My license plate number is 9XYZ456.",
+    "labels": {
+      "9XYZ456:25:32": "driver licence"
+    },
+    "score": 0.8
+  },
+  {
+    "prompt": "The actor's name is Robert Downey Jr.",
+    "labels": {
+      "Robert Downey Jr.:19:37": "actor"
+    },
+    "score": 0.5
+  },
+  {
+    "prompt": "The patient resides in 2345 Birch St, Los Angeles, CA.",
+    "labels": {
+      "2345 Birch St, Los Angeles, CA:20:51": "full address"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "The character's name is Harry Potter.",
+    "labels": {
+      "Harry Potter:21:33": "character"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "Submit your passport number to the portal.",
+    "labels": {
+    },
+    "score": 0.1
+  },
+  {
+    "prompt": "Her work involves data analysis at Microsoft.",
+    "labels": {
+      "Microsoft:36:45": "company"
+    },
+    "score": 0.5
+  },
+  {
+    "prompt": "The restaurant's address is 4567 Pearl St, Miami, FL 33101.",
+    "labels": {
+      "4567 Pearl St, Miami, FL 33101:26:60": "full address"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "Your reservation code is RES1234567.",
+    "labels": {
+      "RES1234567:23:33": "booking number"
+    },
+    "score": 0.7
+  },
+  {
+    "prompt": "The order number 654321 is ready for pickup.",
+    "labels": {
+      "654321:16:22": "booking number"
+    },
+    "score": 0.6
+  },
+  {
+    "prompt": "The company employs around 5000 people.",
+    "labels": {
+    },
+    "score": 0.1
+  },
+  {
+    "prompt": "The team met at Golden Gate Park.",
+    "labels": {
+      "Golden Gate Park:17:33": "location"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "The book titled 'Artificial Intelligence' was authored by John McCarthy.",
+    "labels": {
+      "Artificial Intelligence:20:42": "book",
+      "John McCarthy:60:73": "person"
+    },
+    "score": 0.6
+  },
+  {
+    "prompt": "Her Social Security Number is 111-22-3333.",
+    "labels": {
+      "111-22-3333:29:40": "Social Security Number"
+    },
+    "score": 0.95
+  },
+  {
+    "prompt": "I live at 12345 Cedar Ave, Los Altos, CA 94022.",
+    "labels": {
+      "12345 Cedar Ave, Los Altos, CA 94022:9:47": "full address"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "Her email address is mary.jane@example.com.",
+    "labels": {
+      "mary.jane@example.com:22:43": "email"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The order number for your meal is ORD7654321.",
+    "labels": {
+      "ORD7654321:35:45": "booking number"
+    },
+    "score": 0.7
+  },
+  {
+    "prompt": "This document has no sensitive information.",
+    "labels": {
+    },
+    "score": 0.0
+  },
+  {
+    "prompt": "The work involves developing software at Google.",
+    "labels": {
+      "Google:40:46": "company"
+    },
+    "score": 0.5
+  },
+  {
+    "prompt": "The package was delivered to 3456 Cherry St, Seattle, WA.",
+    "labels": {
+      "3456 Cherry St, Seattle, WA:26:56": "full address"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "The actor's name is Chris Hemsworth.",
+    "labels": {
+      "Chris Hemsworth:19:34": "actor"
+    },
+    "score": 0.6
+  },
+  {
+    "prompt": "The reservation is under the name Emma Stone.",
+    "labels": {
+      "Emma Stone:32:42": "person"
+    },
+    "score": 0.6
+  },
+  {
+    "prompt": "The contact number for the office is (555) 876-5432.",
+    "labels": {
+      "(555) 876-5432:33:47": "phone number"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The student ID for Jane Doe is 987654.",
+    "labels": {
+      "Jane Doe:19:27": "person",
+      "987654:31:37": "personally identifiable information"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The restaurant is located at 4321 Maple Dr, Houston, TX.",
+    "labels": {
+      "4321 Maple Dr, Houston, TX:28:57": "full address"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "The lead actor in the movie is Johnny Depp.",
+    "labels": {
+      "Johnny Depp:32:43": "actor"
+    },
+    "score": 0.5
+  },
+  {
+    "prompt": "The project involves collaborating with IBM.",
+    "labels": {
+      "IBM:35:38": "company"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "The work is done by a team based in New York.",
+    "labels": {
+      "New York:36:44": "location"
+    },
+    "score": 0.3
+  },
+  {
+    "prompt": "The ISBN of the publication is 978-1-234-56789-0.",
+    "labels": {
+      "978-1-234-56789-0:26:44": "book"
+    },
+    "score": 0.5
+  },
+  {
+    "prompt": "Please email the completed form to hr@company.com.",
+    "labels": {
+      "hr@company.com:35:49": "email"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The driver's license number is D1234567890.",
+    "labels": {
+      "D1234567890:32:43": "driver licence"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "The character was inspired by Sherlock Holmes.",
+    "labels": {
+      "Sherlock Holmes:31:46": "character"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "No PII found in this statement.",
+    "labels": {
+    },
+    "score": 0.0
+  },
+  {
+    "prompt": "The patient's address is 789 Pine St, Apartment 5A, Boston, MA.",
+    "labels": {
+      "789 Pine St, Apartment 5A, Boston, MA:23:61": "full address"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The employee's Social Security Number is 444-55-6666.",
+    "labels": {
+      "444-55-6666:36:47": "Social Security Number"
+    },
+    "score": 0.95
+  },
+  {
+    "prompt": "The email address for the contact is admin@service.org.",
+    "labels": {
+      "admin@service.org:35:51": "email"
+    },
+    "score": 0.9
+  },
+  {
+    "prompt": "The meeting will be held at Times Square.",
+    "labels": {
+      "Times Square:28:40": "location"
+    },
+    "score": 0.3
+  },
+  {
+    "prompt": "The company address is 6789 Hilltop Rd, Denver, CO.",
+    "labels": {
+      "6789 Hilltop Rd, Denver, CO:21:51": "full address"
+    },
+    "score": 0.85
+  },
+  {
+    "prompt": "The actor in the lead role is Christian Bale.",
+    "labels": {
+      "Christian Bale:31:44": "actor"
+    },
+    "score": 0.6
+  },
+  {
+    "prompt": "The work was done at Stanford University.",
+    "labels": {
+      "Stanford University:22:41": "location"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "The project will be done in collaboration with Apple.",
+    "labels": {
+      "Apple:49:54": "company"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "The work involves data analysis at IBM.",
+    "labels": {
+      "IBM:36:39": "company"
+    },
+    "score": 0.4
+  },
+  {
+    "prompt": "The employee ID for Jane is 123456789.",
+    "labels": {
+      "Jane:20:24": "person",
+      "123456789:28:37": "personally identifiable information"
+    },
+    "score": 0.9
+  }
+]
